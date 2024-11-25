@@ -1,12 +1,12 @@
 Modified by sateesh
 again touched
 Literature Survey:
-
+sateesh modified n 25th nov
 Proxy Reencryption: In ABE with outsourced decryption, a
 user provides the cloud with a transformation key that allows
 the cloud to translate an ABE ciphertext on message into
 a simple ciphertext on the same , without learning anything
-about . This is reminiscent of the concept of proxy reencryption [1], [2]. Proxy reencryption allows a proxy, using a reencryption key, to transform an encryption of under Alice�s public key into an encryption of the same under Bob�s public key without the proxy learning anything about the encrypted message . We emphasize that in the model of proxy reencryption, verifiability of the proxy�s transformation cannot be
+about . This is reminiscent of the concept of proxy reencryption [1], [2]. Proxy reencryption allows a proxy, using a reencryption key, to transform an encryption of under Alice’s public key into an encryption of the same under Bob’s public key without the proxy learning anything about the encrypted message . We emphasize that in the model of proxy reencryption, verifiability of the proxy’s transformation cannot be
 achieved. 
 locally modifie dby sateesh
 Pairing Delegation: Pairing delegation [3], [4] enables a
