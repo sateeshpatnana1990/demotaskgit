@@ -6,9 +6,9 @@ Proxy Reencryption: In ABE with outsourced decryption, a
 user provides the cloud with a transformation key that allows
 the cloud to translate an ABE ciphertext on message into
 a simple ciphertext on the same , without learning anything
-about . This is reminiscent of the concept of proxy reencryption [1], [2]. Proxy reencryption allows a proxy, using a reencryption key, to transform an encryption of under Alice’s public key into an encryption of the same under Bob’s public key without the proxy learning anything about the encrypted message . We emphasize that in the model of proxy reencryption, verifiability of the proxy’s transformation cannot be
+about . This is reminiscent of the concept of proxy reencryption [1], [2]. Proxy reencryption allows a proxy, using a reencryption key, to transform an encryption of under Aliceï¿½s public key into an encryption of the same under Bobï¿½s public key without the proxy learning anything about the encrypted message . We emphasize that in the model of proxy reencryption, verifiability of the proxyï¿½s transformation cannot be
 achieved. 
-
+locally modifie dby sateesh
 Pairing Delegation: Pairing delegation [3], [4] enables a
 client to outsource the computation of parings to another entity.
 However, the schemes proposed in [25], [26] still require the
@@ -24,23 +24,23 @@ workers. The workers return the result of the function evaluation as well as a n
 the function was carried out correctly
 
 Add these Referecnce in references and plz provide sequencial numbering:
-[1] M. Blaze, G. Bleumer, and M. Strauss, “Divertible protocols and
-atomic proxy cryptography,” in Proc. EUROCRYPT, 1998, pp.
-127–144.
-[2] G. Ateniese, K. Fu, M. Green, and S. Hohenberger, “Improved proxy
-re-encryption schemes with applications to secure distributed storage,”
+[1] M. Blaze, G. Bleumer, and M. Strauss, ï¿½Divertible protocols and
+atomic proxy cryptography,ï¿½ in Proc. EUROCRYPT, 1998, pp.
+127ï¿½144.
+[2] G. Ateniese, K. Fu, M. Green, and S. Hohenberger, ï¿½Improved proxy
+re-encryption schemes with applications to secure distributed storage,ï¿½
 in Proc. NDSS, San Diego, CA, USA, 2005.
 [3] B. Chevallier-Mames, J.-S. Coron, N. McCullagh, D. Naccache,
-and M. Scott, “Secure delegation of elliptic-curve pairing,” in Proc.
-CARDIS, 2010, pp. 24–35.
-[4] B. G. Kang, M. S. Lee, and J. H. Park, “Efficient delegation of pairing computation,” IACR Cryptology ePrint Archive, vol. 2005, p. 259,
+and M. Scott, ï¿½Secure delegation of elliptic-curve pairing,ï¿½ in Proc.
+CARDIS, 2010, pp. 24ï¿½35.
+[4] B. G. Kang, M. S. Lee, and J. H. Park, ï¿½Efficient delegation of pairing computation,ï¿½ IACR Cryptology ePrint Archive, vol. 2005, p. 259,
 2005.
-[5] R. Gennaro, C. Gentry, and B. Parno, “Non-interactive verifiable
-computing: Outsourcing computation to untrusted workers,” in Proc.
-CRYPTO, 2010, pp. 465–482.
-[6] K.-M. Chung, Y. T. Kalai, and S. P. Vadhan, “Improved delegation of
-computation using fully homomorphic encryption,” in Proc. CRYPTO,
-2010, pp. 483–501.
+[5] R. Gennaro, C. Gentry, and B. Parno, ï¿½Non-interactive verifiable
+computing: Outsourcing computation to untrusted workers,ï¿½ in Proc.
+CRYPTO, 2010, pp. 465ï¿½482.
+[6] K.-M. Chung, Y. T. Kalai, and S. P. Vadhan, ï¿½Improved delegation of
+computation using fully homomorphic encryption,ï¿½ in Proc. CRYPTO,
+2010, pp. 483ï¿½501.
 
 
 Future Enhancement:
